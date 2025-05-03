@@ -12,19 +12,29 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: hsl(212, 45%, 89%);
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem;
+    }
     .attribution { 
       font-size: 11px; text-align: center; 
 
     }
     .attribution a { 
       color: hsl(228, 45%, 44%);
-      
 
-    }
-    body {
-      background: hsl(212, 45%, 89%);
-      font-family: 'Inter', sans-serif;
-      
+
     }
     h1 {
       font-size: 22px;
@@ -58,21 +68,18 @@
   </style>
 </head>
 <body>
-
+  <main class="card">
     <div class="qr-code">
-
-      <img src="./images/image-qr-code.png" alt="qr-code">
-
+      <img src="./images/image-qr-code.png" alt="QR code to Frontend Mentor Website">
     </div>
-
     <h1>Improve your front-end skills by building projects</h1>
-
     <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  </main>
 
   
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Kishan Patel</a>.
-  </div>
+  </footer>
 </body>
 </html>
